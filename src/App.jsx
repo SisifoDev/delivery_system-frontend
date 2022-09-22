@@ -1,8 +1,8 @@
-import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Client/Home/Home';
-import './App.css';
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Client/Home/Home'
+import './App.css'
 
-function App() {
+function App () {
   return (
     <div>
       <Routes>
