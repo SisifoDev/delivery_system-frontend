@@ -1,7 +1,9 @@
 import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Client/Home/Home'
 
-function App () {
+// Page
+import { Home } from './pages/Home/Home'
+
+export function App () {
   return (
     <div>
       <Routes>
@@ -11,5 +13,3 @@ function App () {
     </div>
   )
 }
-
-export default App
